@@ -1,0 +1,181 @@
+.m-padded-mini{
+    padding: 0.3em !important;
+}
+.m-padded-middle{
+    padding:0.6em !important;
+}
+.m-padded-tb-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+.m-padded-tb-smallP{
+    padding-top: 0.6em !important;
+    padding-bottom: 0.6em !important;
+}
+
+.m-padded-tb-small{
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+.m-padded-tb-middle-responsive{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.m-padded-tb-middle{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.m-padded-tb-massvie{
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+.m-padded-tb-big{
+    padding-top: 10em !important;
+    padding-bottom: 10em !important;
+}
+.m-contentCss{
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
+/*-----margin-----*/
+.m-margin-tb-mini{
+    margin-top: 0.2em !important;
+    margin-bottom: 0.2em !important;
+}
+
+.m-margin-tb-middle{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+.m-margin-bottom-small{
+    margin-bottom: 0.5em !important;
+}
+/*-----text----*/
+.nav-TextCss{
+    font-weight: 300 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.m-text-about{
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    line-height: 1.8 !important;
+    font-size: 14px;
+    text-indent: 2em;
+}
+.m-text{
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    line-height: 1.8 !important;
+}
+.m-PicText{
+    font-weight: bolder !important;
+    letter-spacing: 1px !important;
+    font-family: "微软雅黑" !important;
+    color: #333 !important;
+    }
+.m-text-thin{
+   font-weight: 300 !important; 
+
+}
+.m-text-spaced{
+    letter-spacing: 1px !important;
+}
+.m-text-lined{
+    line-height: 1.8 !important;
+}
+.m-opacity-middle{
+    opacity: 0.6 !important;
+}
+.m-opacity-mini{
+    opacity: 0.8 !important;
+}
+.m-opacity-miniP{
+    opacity: 0.9 !important;
+
+}
+
+
+/*----display----*/
+.m-inline-blok{
+    display: inline-block !important;
+}
+/*---------position--------*/
+.m-rightTop{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.m-rightDown{
+    position: fixed !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    z-index: 10 !important;
+}
+/*-----container-----*/
+.m-container{
+    max-width: 80em !important;
+    margin: auto !important;
+}
+
+/*------color-----*/
+.m-black{
+    color: #333;
+}
+
+/*-------CSS-------*/
+body{
+    background-image: url(https://img13.360buyimg.com/ddimg/jfs/t1/168000/34/8732/2563952/603dace1Ec1d85eec/5440d64aa2f370f5.jpg);
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    background-position: center 0 !important;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+}
+.mypic{
+    width: 10em !important;
+    height: 10em !important;
+}
+
+/*--------bgColor---------*/
+.nav-CSS{
+    background: url(https://ftp.bmp.ovh/imgs/2021/03/25933e7d0a3a4ae2.jpg) no-repeat center !important;
+    background-size: cover;
+}
+
+
+
+
+.m-mobileShow{
+    display: none !important;
+}
+
+/*---------shadow--------*/
+.m-shadow{
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+
+
+
+
+
+.m-footerCss{
+    z-index: 1 !important;
+}
+@media screen and (max-width:768px){
+    .m-mobileHide{
+        display: none !important;
+    }.m-mobileShow{
+        display: block !important;
+    }.nav-CSS{
+        background-image:none! important;
+    }.m-padded-tb-middle-responsive{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }.m-mobile-wide{
+        width: 100% !important;
+    }.m-mobile-lr-clear{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}

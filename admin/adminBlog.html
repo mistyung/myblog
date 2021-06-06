@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阿阦的Blog分类后台(っ•̀ω•́)っ✎⁾⁾ </title>
+    <link rel="icon" href="../static/imgs/icon.png" sizes="32x32">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="../node_modules/aplayer/dist/APlayer.min.css">
+    <link rel="stylesheet" href="../static/css/swiper.min.css">
+    <link rel="stylesheet" href="../static/css/animate.min.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+</head>
+
+<body>
+    <!-- 导航 -->
+    <nav class="ui inverted attached segment m-padded-tb-mini nav-CSS m-opacity-min m-shadow animated fadeInLeft">
+        <div class="ul container">
+            <div class="ui inverted secondary stackable menu">
+                <h2 class="ui teal header item">MyBlog后台管理</h2>
+                <a href="#" class="item m-item nav-TextCss m-mobileHide"><i class="home icon"></i>博客</a>
+                <a href="#" class="active item m-item nav-TextCss m-mobileHide"><i class="idea icon"></i>分类</a>
+                <a href="#" class="item m-item nav-TextCss m-mobileHide"><i class="tags icon"></i>标签</a>
+                <div class="right m-item m-mobileHide menu">
+                    <div class="ui dropdown item">
+                        <div class="text">
+                            <img src="https://picsum.photos/100/100?random=21" alt="" srcset="" class="ui avatar image">
+                            阿阦
+                        </div>
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a href="" class="item">注销</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="ui menu toggle icon teal button m-rightTop m-mobileShow">
+            <i class="sidebar icon"></i>
+        </a>
+    </nav>
+    <!-- 二级导航 -->
+    <div class="ui attached pointing menu">
+        <div class="ui container">
+            <div class="right menu">
+                <a href="#" class="item">发布</a>
+                <a href="#" class="active teal item">列表</a>
+            </div>
+        </div>
+    </div>
+    <!-- 中间内容 -->
+    <div class="m-container m-padded-tb-big m-opacity-miniP animated fadeInUp">
+        <div class="ui container">
+            <form action="#" method="post" class="ui segment form">
+                <div class="inline fields">
+                    <div class="field">
+                        <input type="text" name="title" placeholder="标题">
+                    </div>
+                    <div class="field">
+                        <div class="ui selection dropdown">
+                            <input type="hidden" name="type">
+                            <i class="dropdown icon"></i>
+                            <div class="default text">分类</div>
+                            <div class="menu">
+                                <div class="item" data-value="1">错误日志</div>
+                                <div class="item" data-value="2">开发者日志</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui checkbox">
+                            <input type="checkbox" id="recommend" name="recommend">
+                            <label for="recommend">推荐</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <button class="ui mini teal basic button"><i class="search icon"></i>搜索</button>
+                    </div>
+                </div>
+            </form>
+
+            <table class="ui table">
+                <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>标题</th>
+                        <th>类型</th>
+                        <th>推荐</th>
+                        <th>更新时间</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>关于冒泡排序</td>
+                        <td>学习</td>
+                        <td>是</td>
+                        <td>2021-3-3 16:40:10</td>
+                        <td>
+                            <a href="#" class="ui mini teal button">编辑</a>
+                            <a href="#" class="ui mini red button">删除</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="6">
+                            <div class="ui pagination menu">
+                                <a class="item">
+                                    <i class="left chevron icon"></i>
+                                </a>
+                                <a class="item">
+                                    <i class="right chevron icon"></i>
+                                </a>
+                            </div>
+                            <a href="#" class="ui middle basic button teal right floated">新增</a>
+                        </th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <!-- 底部footer -->
+    <div id="aplayer"></div>
+    <footer class="ui inverted vertical segment m-padded-tb-massvie m-opacity-middle animated fadeInUp">
+        <div class="ui center aligned container">
+            <div class="ui inverted divided stackable grid">
+                <div class="three wide column">
+                    <div class="ui inverted link list">
+                        <h4 class="ui inverted header">我的微信</h4>
+                        <div class="item"><img src="../static/imgs/wechat.JPG" class="ui rounded image"
+                                style="width: 5em;" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header ">最新博客</h4>
+                    <div class="ui inverted ink list m-opacity-mini">
+                        <a href="#" class="item">我的故事</a>
+                        <a href="#" class="item">我的博客</a>
+                        <a href="#" class="item">我的博客</a>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header ">联系我</h4>
+                    <div class="ui inverted ink list m-opacity-mini">
+                        <a href="#" class="item">Email:mistyang97@outlook.com</a>
+                        <a href="#" class="item">QQ：997816804</a>
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <h4 class="ui inverted header ">最新博客</h4>
+                    <p class="m-opacity-mini">这是我的个人博客，有时我会记录下我关于编程、学习、生活的点点滴滴，希望能够记下我的成长经历...</p>
+                </div>
+            </div>
+            <div class="ui inverted section divider"></div>
+            <p class="m-text-thin m-text-spaced m-opacity-mini"
+                style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                Copyright©2020-2021
+                Designed by misyang97</p>
+        </div>
+
+    </footer>
+    <script src="../static/js/jquery-1.11.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+    <script src="../static/js/swiper.animate1.0.3.min.js"></script>
+    <script src="../static/js/swiper.min.js"></script>
+    <script src="../static/js/myswiper.js"></script>
+    <script src="http://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="../static/js/myAplayer.js"></script>
+    <script src="../node_modules/aplayer/dist/APlayer.min.js"></script>
+    <script src="../static/js/myjs.js"></script>
+</body>
+
+</html>
